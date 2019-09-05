@@ -21,3 +21,5 @@ list of endpoints how to consume the same
 2) http://localhost:8081/book/available
 
 In this sample because we set zuul.routes.micro2.url & zuul.routes.book.url, so Zuul will proxy requests /micro2 & /books to respective http://localhost:8082/ & http://localhost:8090/ hosts.
+
+Note: Start book & micro2 application and then micro1
